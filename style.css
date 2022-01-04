@@ -20,11 +20,13 @@ img{
 .hero-section{
     background-image:url("images/top-banner.png");
     background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 .d-flex{
     display:flex;
     align-items:center;
     margin-bottom:150px;
+    padding-top:50px;
 }
 .wrapper{
     width:50%;
@@ -48,6 +50,7 @@ img{
     line-height:28px;
     padding:10px 0;
     text-transform:capitalize;
+    padding:0 10px;
 }
 .wrapper .btn-link{
     text-decoration:none;
@@ -66,7 +69,7 @@ img{
 .dream-big{
     background-image: url("images/dream-bg.png");
     background-repeat:no-repeat;
-    background-position: right;
+    background-position: right bottom;
 }
 .wrapper h3{
     font-size:32px;
@@ -75,4 +78,50 @@ img{
 .wrapper h4{
     font-size:24px;
     padding:20px 0;
+}
+/*=========== style experience section ============*/
+.experience-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:left;
+    background-attachment:fixed;
+}
+
+.experience-section h3{
+    font-size:32px;
+    text-transform:capitalize;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+.experience-section h4{
+    margin:10px 0;
+    color:orange;
+    font-size:22px;
+}
+.experience-section p{
+    font-size:16px;
+    line-height:26px;
+    font-weight:400;
+}
+.experience-section .shadow-box{
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    box-shadow:10px 10px 40px gray;
+    padding:30px 40px;
+    border-radius:2%;    
+}
+.experience-section .bd-1{
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice:1;
+    border-left:5px solid; 
+}
+.experience-section .bd-2{
+    border-image: linear-gradient(navy, cyan);
+    border-image-slice:1;
+    border-left:5px solid;
+}
+footer{
+    text-align:center;
+    padding:20px 0px;
 }

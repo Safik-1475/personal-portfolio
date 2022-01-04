@@ -18,10 +18,13 @@ img{
 }
 /*=========== style section ============*/
 .hero-section{
-    display:flex;
-    align-items:center;
     background-image:url("images/top-banner.png");
     background-repeat:no-repeat;
+}
+.d-flex{
+    display:flex;
+    align-items:center;
+    margin-bottom:150px;
 }
 .wrapper{
     width:50%;
@@ -58,4 +61,18 @@ img{
 }
 .wrapper img{
     width:70%;
+}
+/*=========== style dream section ============*/
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.wrapper h3{
+    font-size:32px;
+    text-transform:capitalize;
+}
+.wrapper h4{
+    font-size:24px;
+    padding:20px 0;
 }

@@ -20,6 +20,8 @@ img{
 .hero-section{
     display:flex;
     align-items:center;
+    background-image:url("images/top-banner.png");
+    background-repeat:no-repeat;
 }
 .wrapper{
     width:50%;
